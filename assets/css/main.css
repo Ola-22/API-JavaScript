@@ -1,0 +1,59 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 15px;
+    background: black;
+    color: #fff;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.container input {
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+.submit {
+    background-color: black;
+    color: white;
+}
+
+.submit:hover,
+.removebtn:hover {
+    cursor: pointer;
+    background-color: #fff;
+    color: black;
+}
+
+.container button {
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: red;
+    color: white;
+}
+
+.container h1 {
+    text-align: center !important;
+    font-size: 3rem;
+    margin-top: 10vh;
+}
+
+table {
+    margin-top: 20px;
+    margin-left: 40vh;
+}
+
+table,
+tr,
+td {
+    border: 1px solid #fff;
+}
